@@ -20,8 +20,6 @@ exports.getDay = function(){
 
   var options = {
     weekday: "long",
-    // day: "numeric",
-    // month: "long"
   };
 
   var dayToday = today.toLocaleDateString("en-US", options);
